@@ -1,3 +1,4 @@
+stdin_open: true
 language: generic
 sudo: required
 services:
