@@ -7,4 +7,4 @@ before_install:
   - docker build -t monroe0219/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true BAM89/docker-react npm run test
+  - docker run -e CI=true monroe0219/docker-react npm run test
